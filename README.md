@@ -1,6 +1,8 @@
 # marriage_funeral
 喜喪酬酢品申請
 
+based on bootstrap 4.0 
+
 ## 主要css
 
 * 喜事：main-pink.css
