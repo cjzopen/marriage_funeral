@@ -1,14 +1,14 @@
 # marriage_funeral
 喜喪酬酢品申請
 
-##主要css
+## 主要css
 
 * 喜事：main-pink.css
 * 喪事：main-gray.css
 
 視情況套用
 
-##訊息視窗
+## 訊息視窗
 
     <!-- 彈出視窗 -->
     <div id="popout">
@@ -24,4 +24,4 @@
     <!-- 彈出視窗結尾 -->
 
 
-##123
+## 123
