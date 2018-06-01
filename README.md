@@ -10,8 +10,8 @@
 
 ##訊息視窗
 
-  <!-- 彈出視窗 -->
-  <div id="popout">
+    &lt;!-- 彈出視窗 -->
+    &lt;div id="popout"&gt;
     <div id="popout-content">
       <header class="l-size bb-1">標題</header>
       <p class="content">訊息內容</p>
@@ -20,8 +20,8 @@
         <a href="#" class="btn active">取消</a>
       </footer>
     </div>
-  </div>
-  <!-- 彈出視窗結尾 -->
+    </div>
+    <!-- 彈出視窗結尾 -->
 
 
 ##123
