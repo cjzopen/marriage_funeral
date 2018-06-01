@@ -9,7 +9,7 @@
 視情況套用
 
 ## 訊息視窗
-# javascript 寫在 html 下面 #
+**javascript 寫在 html 下面**
 
     <!-- 彈出視窗 -->
     <div id="popout">
@@ -26,7 +26,7 @@
 
 
 ## 手風琴
-# javascript 寫在 html 下面 #
+**javascript 寫在 html 下面**
 
 
     <div class="accordion fff-bg mb-3">
