@@ -10,16 +10,16 @@
 
 ##訊息視窗
 
-    &lt;!-- 彈出視窗 -->
-    &lt;div id="popout"&gt;
-    <div id="popout-content">
-      <header class="l-size bb-1">標題</header>
-      <p class="content">訊息內容</p>
-      <footer class="text-center">
-        <a href="#" class="btn mr-2">確定</a>
-        <a href="#" class="btn active">取消</a>
-      </footer>
-    </div>
+    <!-- 彈出視窗 -->
+    <div id="popout">
+        <div id="popout-content">
+          <header class="l-size bb-1">標題</header>
+          <p class="content">訊息內容</p>
+          <footer class="text-center">
+            <a href="#" class="btn mr-2">確定</a>
+            <a href="#" class="btn active">取消</a>
+          </footer>
+        </div>
     </div>
     <!-- 彈出視窗結尾 -->
 
