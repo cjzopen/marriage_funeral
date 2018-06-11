@@ -1,7 +1,7 @@
 # marriage_funeral
 喜喪酬酢品申請
 
-based on bootstrap 4.0 
+based on bootstrap 4.0
 
 ## 主要css
 
@@ -10,8 +10,11 @@ based on bootstrap 4.0
 
 視情況套用
 
+## javascript
+
+* js/other.js
+
 ## 訊息視窗
-**javascript 寫在 html 下面**
 
     <!-- 彈出視窗 -->
     <div id="popout">
@@ -28,7 +31,6 @@ based on bootstrap 4.0
 
 
 ## 手風琴
-**javascript 寫在 html 下面**
 
 
     <div class="accordion fff-bg mb-3">
@@ -38,3 +40,7 @@ based on bootstrap 4.0
       </div>
     </div>
 
+
+## 註解
+
+    <span class="remark btn active" data-content="{{註解的內容}}">註</span>
