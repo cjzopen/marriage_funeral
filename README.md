@@ -40,10 +40,10 @@ Where size is one of:
 *  5 - (by default) for classes that set the margin or padding to $spacer * 3
 *  auto - for classes that set the margin to auto
 
+       .ml-3 {
+          margin-left: 1rem !important;
+        }
 
-    .ml-3 {
-      margin-left: 1rem !important;
-    }
 
 ## javascript
 
