@@ -105,3 +105,26 @@ Where size is one of:
           </tbody>
         </table>
       </div>
+
+## checkbox
+id跟for要相同
+
+    <div class="check">
+      <input type="checkbox" id="search1"><label for="search1">案件編號</label>
+    </div>
+
+## radio
+
+方形
+
+    <label class="radio-square d-block">不限
+      <input type="radio" name="申請類別1">
+      <span class="circle"></span>
+    </label>
+
+圓形
+
+    <label class="radio">&nbsp;
+      <input type="radio" name="no1">
+      <span class="circle"></span>
+    </label>
