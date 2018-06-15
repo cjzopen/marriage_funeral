@@ -4,7 +4,7 @@
 based on bootstrap 4.0
 
 ## 主要css
-
+* [font-awesome 4.7.0](https://fontawesome.com/v4.7.0/icons/)
 * 喜事：main-pink.css
 * 喪事：main-gray.css
 
