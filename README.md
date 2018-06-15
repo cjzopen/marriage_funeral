@@ -91,20 +91,17 @@ Where size is one of:
 * 有排序功能的話，一定要給table id
 * th 加上 .sort 可排序
 
-
-
-
-    <div class="table-responsive-lg">
-      <table class="table" id="tableID">
-        <thead>
-          <tr>
-            <th class="sort"></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+      <div class="table-responsive-lg">
+        <table class="table" id="tableID">
+          <thead>
+            <tr>
+              <th class="sort"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
