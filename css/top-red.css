@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Arial, "新細明體";
+	font-size: 13px;
+	background-image: url(../image/top-bg.bmp);
+	background-repeat: repeat-x;
+	background-position: top;
+	margin: 0px;
+	padding: 0px;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+img{
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#flash{
+	float: left;
+	height: 81px;
+	width: 370px;
+}
+#right{
+	float: right;
+	margin-right: 10px;
+	margin-top: 16px;
+}
+
+.one a{
+	display: inline-block;
+	background-image: url(../image/icon01.gif);
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 29px;
+}
+.one center{
+	color: #FFFFFF;
+}
+.one a:hover{
+	display: inline-block;
+	background-image: url(../image/icon01b.gif);
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 29px;
+}
+.two a{
+	display: inline-block;
+	background-image: url(../image/icon02.gif);
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 29px;
+}
+.two center{
+	color: #FFFFFF;
+}
+.two a:hover{
+	display: inline-block;
+	background-image: url(../image/icon02b.gif);
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 29px;
+}
+.three a{
+	display: inline-block;
+	background-image: url(../image/icon03.gif);
+	background-repeat: no-repeat;
+	width: 29px;
+	height: 29px;
+}
+.three center{
+	color: #FFFFFF;
+}
+.three a:hover{
+	display: inline-block;
+	background-image: url(../image/icon03b.gif);
+	background-repeat: no-repeat;
+	width: 29px;
+	height: 29px;
+}
+.four a{
+	display: inline-block;
+	background-image: url(../image/icon04.gif);
+	background-repeat: no-repeat;
+	width: 29px;
+	height: 29px;
+}
+.four center{
+	color: #FFFFFF;
+}
+.four a:hover{
+	display: inline-block;
+	background-image: url(../image/icon04b.gif);
+	background-repeat: no-repeat;
+	width: 29px;
+	height: 29px;
+}
+.six a{
+	display: inline-block;
+	background-image: url(../image/home.png);
+	background-repeat: no-repeat;
+	width: 29px;
+	height: 29px;
+}
+.six center{
+	color: #FFFFFF;
+}
+.six a:hover{
+	display: inline-block;
+	background-image: url(../image/home.png);
+	background-repeat: no-repeat;
+	width: 29px;
+	height: 29px;
+}
+
+.form-bg{
+	background-image: url(../image/form.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-left: 5px;
+}
+marquee{
+	font-size: 15px;
+	color: #FFFFFF;
+	padding-top: 10px;
+}
+#apDiv2 {
+	position:absolute;
+	width:24px;
+	height:20px;
+	z-index:3;
+	visibility: hidden;
+	overflow: visible;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	background-image: url(../image/meg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin-top: -10px;
+	text-align: center;
+}
+#apDiv3 {
+	position:absolute;
+	width:24px;
+	height:20px;
+	z-index:3;
+	visibility: hidden;
+	overflow: visible;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	background-image: url(../image/meg03.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin-top: -10px;
+	margin-left: 20px;
+	text-align: center;
+}
+#apDiv4 {
+	position:absolute;
+	width:24px;
+	height:20px;
+	z-index:3;
+	visibility: hidden;
+	overflow: visible;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	background-image: url(../image/meg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin-top: -10px;
+	margin-left: 5px;
+	text-align: center;
+}
+#apDiv5 {
+	position:absolute;
+	width:24px;
+	height:20px;
+	z-index:3;
+	visibility: hidden;
+	overflow: visible;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	background-image: url(../image/meg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin-top: -10px;
+	margin-left: 35px;
+	text-align: center;
+}
+#apDiv6 {
+	position:absolute;
+	width:24px;
+	height:20px;
+	z-index:3;
+	visibility: hidden;
+	overflow: visible;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	background-image: url(../image/meg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin-top: -10px;
+	text-align: center;
+}

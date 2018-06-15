@@ -1,0 +1,65 @@
+ul, li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#fade {
+	margin-left:25%;
+	width: 720px;	/* 圖片的寬 */
+	height: 250px;	/* 圖片的高 + 30 */
+	border: 0px solid #ddd;
+}
+.fade-player {
+	width: 720px;	/* 圖片的寬 */
+	height: 220px;	/* 圖片的高 */
+	position: relative;
+	overflow: hidden;
+}
+.fade-player ul.fade-list {
+	position: absolute;
+	width: 720px;
+	height: 100%;
+}
+.fade-player ul.fade-list li {
+	float: left;
+	width: 720px;	/* 圖片的寬 */
+	height: 100%;
+}
+.fade-player ul.fade-list img{
+	border: 0;
+}
+.fade-control {
+	height: 24px;
+	padding: 3px;
+	color: #fff;
+	font-size: 13px;
+	background: #fff;
+}
+.fade-control ul {
+	float: right;
+}
+.fade-control ul li {
+	float: left;
+	padding: 0 5px;
+	line-height: 20px;
+	margin: 2px;
+	cursor: pointer;
+	border: 1px solid #E46994;
+}
+.fade-control ul.numbers {
+	margin-left: 13px;
+	color:#B72749;
+}
+.fade-control ul li.current {
+	background: #B72749;
+	color:#fff;
+}
+.fade-control ul li.hover {
+	background: #fff;
+	color:#000;
+}
+
+.fade-control ul.arrows {
+	background: #fff;
+	color:#B72749;
+}

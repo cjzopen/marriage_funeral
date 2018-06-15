@@ -76,6 +76,35 @@ Where size is one of:
     </div>
 
 
-## 註解
+## 純文字註解
 
-    <span class="remark btn active" data-content="{{註解的內容}}">註</span>
+    <span class="remark btn active" data-content="{{註解的內容}}" {{data-title="標題"}}>註</span>
+    // data-title為選填，預設為"註解"
+
+
+## 含有html內容的視窗
+
+    <a href="#" class="popout" data-urlpath="{{檔案路徑}}" {{data-title="標題"}}>xxxxx</a>
+    // data-title為選填，預設為空白字符
+
+## table
+* 有排序功能的話，一定要給table id
+* th 加上 .sort 可排序
+
+
+
+
+    <div class="table-responsive-lg">
+      <table class="table" id="tableID">
+        <thead>
+          <tr>
+            <th class="sort"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
