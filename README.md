@@ -121,9 +121,17 @@ id跟for要相同
       <input type="radio" name="申請類別1">
       <span class="circle"></span>
     </label>
+    <label class="radio-square">類1
+      <input type="radio" name="申請類別1">
+      <span class="circle"></span>
+    </label>
 
 圓形
 
+    <label class="radio">&nbsp;
+      <input type="radio" name="no1">
+      <span class="circle"></span>
+    </label>
     <label class="radio">&nbsp;
       <input type="radio" name="no1">
       <span class="circle"></span>
