@@ -117,7 +117,7 @@ id跟for要相同
 
 方形
 
-    <label class="radio-square d-block">不限
+    <label class="radio-square">不限
       <input type="radio" name="申請類別1">
       <span class="circle"></span>
     </label>
