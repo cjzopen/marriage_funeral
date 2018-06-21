@@ -1,5 +1,5 @@
 * 0621 add datebox plugin
-* 0620 create details & summary 
+* 0620 create details & summary (js/other.js)
 * 0620 change [純文字註解](#純文字註解)
 
 
