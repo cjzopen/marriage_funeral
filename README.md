@@ -1,14 +1,25 @@
 # marriage_funeral
 喜喪酬酢品申請
 
-based on bootstrap 4.0
+based on bootstrap 4.1
 
 ## 主要css
 * [font-awesome 4.7.0](https://fontawesome.com/v4.7.0/icons/)
 * 喜事：main-pink.css
 * 喪事：main-gray.css
+* datebox: lib/datebox/css/jtsage-datebox.css
 
 視情況套用
+
+## javascript
+
+* js/other.js
+* datebox 相關
+    * https://code.jquery.com/ui/1.11.4/jquery-ui.min.js
+    * https://cdn.jtsage.com/external/jquery.mousewheel.min.js
+    * https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js
+    * lib/datebox/js/jtsage-datebox.js
+    * lib/datebox/js/jtsage-datebox.i18n.zh-TW.utf8.min.js
 
 ### spacing class name
 
@@ -45,9 +56,7 @@ Where size is one of:
         }
 
 
-## javascript
 
-* js/other.js
 
 ## 訊息視窗
 

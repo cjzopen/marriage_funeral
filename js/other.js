@@ -158,4 +158,9 @@
       }
     }
   }
+  //details and summary for ie and edge
+  $('details>*').not('summary').hide();
+  $(document).on('click','summary',function(){
+    $(this).siblings().fadeToggle();
+  });
 })($)

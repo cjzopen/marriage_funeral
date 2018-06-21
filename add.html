@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <meta http-equiv="x-ua-compatible" content="IE=edge">
   <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <link rel="stylesheet" href="lib/datebox/css/jtsage-datebox.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- <link id="css" rel="stylesheet" href="css/main-gray.css"> -->
   <link id="css" rel="stylesheet" href="css/main-pink.css">
@@ -33,8 +34,8 @@
   <main class="p-3">
     <div class="accordion fff-bg mb-3">
       <h3 class="accordion-title">
-        <span>申請件資料 <span class="remark btn active" data-content="申請資料請依序由上往下填寫表格。">註</span></span>
-        <span class="lg-float-right"><a class="btn active mb-0" href="#">清空此表格</a></span>
+        <span>申請件資料 <i class="fa fa-info-circle remark" data-content="申請資料請依序由上往下填寫表格。"></i></span>
+        <span class="lg-float-right"><a class="btn active mb-0" href="#"><i class="fa fa-refresh" aria-hidden="true"></i> 清空</a></span>
         <div class="clear"></div>
       </h3>
       <div class="accordion-body">
@@ -57,104 +58,109 @@
               <label class="label" for=""><span class="red-color">*</span>喜事日期</label>
             </div>
             <div class="w-100">
-              <div class="d-flex justify-content-start w-600px flex-wrap flex-sm-nowrap">
-                <div class="input-group"><input type="text" class="form-control" placeholder="日期"><div class="input-group-append" title="開啟日期選擇"><span class="input-group-text fa fa-calendar"></span></div></div>
-                <div class="input-group flex-shrink-0 mx-sm-1">
-                  <select class="custom-select" id="">
-                    <option value="00">00</option>
-                    <option value="01">01</option>
-                    <option value="02">02</option>
-                    <option value="03">03</option>
-                    <option value="04">04</option>
-                    <option value="05">05</option>
-                    <option value="06">06</option>
-                    <option value="07">07</option>
-                    <option value="08">08</option>
-                    <option value="09">09</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20">20</option>
-                    <option value="21">21</option>
-                    <option value="22">22</option>
-                    <option value="23">23</option>
-                  </select>
-                  <div class="input-group-append">
-                    <label class="input-group-text" for="">時</label>
-                  </div>
+              <div class="row no-gutters justify-content-start w-600px">
+                <div class="col-12 col-md-4">
+                  <input type="text" class="form-control" id="" data-role="datebox" data-options="{&quot;mode&quot;:&quot;calbox&quot;,&quot;useFocus&quot;:true,&quot;useLang&quot;:&quot;zh-TW&quot;}" readonly="readonly" placeholder="日期">
+                  <!-- <div class="input-group"><input type="text" class="form-control" placeholder="日期"><div class="input-group-append" title="開啟日期選擇"><span class="input-group-text fa fa-calendar"></span></div></div> -->
                 </div>
-                <div class="input-group flex-shrink-0" >
-                  <select class="custom-select" id="">
-                    <option value="00">00</option>
-                    <option value="01">01</option>
-                    <option value="02">02</option>
-                    <option value="03">03</option>
-                    <option value="04">04</option>
-                    <option value="05">05</option>
-                    <option value="06">06</option>
-                    <option value="07">07</option>
-                    <option value="08">08</option>
-                    <option value="09">09</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20">20</option>
-                    <option value="21">21</option>
-                    <option value="22">22</option>
-                    <option value="23">23</option>
-                    <option value="24">24</option>
-                    <option value="25">25</option>
-                    <option value="26">26</option>
-                    <option value="27">27</option>
-                    <option value="28">28</option>
-                    <option value="29">29</option>
-                    <option value="30">30</option>
-                    <option value="31">31</option>
-                    <option value="32">32</option>
-                    <option value="33">33</option>
-                    <option value="34">34</option>
-                    <option value="35">35</option>
-                    <option value="36">36</option>
-                    <option value="37">37</option>
-                    <option value="38">38</option>
-                    <option value="39">39</option>
-                    <option value="40">40</option>
-                    <option value="41">41</option>
-                    <option value="42">42</option>
-                    <option value="43">43</option>
-                    <option value="44">44</option>
-                    <option value="45">45</option>
-                    <option value="46">46</option>
-                    <option value="47">47</option>
-                    <option value="48">48</option>
-                    <option value="49">49</option>
-                    <option value="50">50</option>
-                    <option value="51">51</option>
-                    <option value="52">52</option>
-                    <option value="53">53</option>
-                    <option value="54">54</option>
-                    <option value="55">55</option>
-                    <option value="56">56</option>
-                    <option value="57">57</option>
-                    <option value="58">58</option>
-                    <option value="59">59</option>
-                  </select>
-                  <div class="input-group-append">
-                    <label class="input-group-text" for="">分</label>
+                <div class="col-12 col-md-8 d-flex flex-nowrap">
+                  <div class="input-group flex-shrink-0 mr-1 mx-md-1">
+                    <select class="custom-select" id="">
+                      <option value="00">00</option>
+                      <option value="01">01</option>
+                      <option value="02">02</option>
+                      <option value="03">03</option>
+                      <option value="04">04</option>
+                      <option value="05">05</option>
+                      <option value="06">06</option>
+                      <option value="07">07</option>
+                      <option value="08">08</option>
+                      <option value="09">09</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                    </select>
+                    <div class="input-group-append">
+                      <label class="input-group-text" for="">時</label>
+                    </div>
+                  </div>
+                  <div class="input-group flex-shrink-0" >
+                    <select class="custom-select" id="">
+                      <option value="00">00</option>
+                      <option value="01">01</option>
+                      <option value="02">02</option>
+                      <option value="03">03</option>
+                      <option value="04">04</option>
+                      <option value="05">05</option>
+                      <option value="06">06</option>
+                      <option value="07">07</option>
+                      <option value="08">08</option>
+                      <option value="09">09</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                      <option value="31">31</option>
+                      <option value="32">32</option>
+                      <option value="33">33</option>
+                      <option value="34">34</option>
+                      <option value="35">35</option>
+                      <option value="36">36</option>
+                      <option value="37">37</option>
+                      <option value="38">38</option>
+                      <option value="39">39</option>
+                      <option value="40">40</option>
+                      <option value="41">41</option>
+                      <option value="42">42</option>
+                      <option value="43">43</option>
+                      <option value="44">44</option>
+                      <option value="45">45</option>
+                      <option value="46">46</option>
+                      <option value="47">47</option>
+                      <option value="48">48</option>
+                      <option value="49">49</option>
+                      <option value="50">50</option>
+                      <option value="51">51</option>
+                      <option value="52">52</option>
+                      <option value="53">53</option>
+                      <option value="54">54</option>
+                      <option value="55">55</option>
+                      <option value="56">56</option>
+                      <option value="57">57</option>
+                      <option value="58">58</option>
+                      <option value="59">59</option>
+                    </select>
+                    <div class="input-group-append">
+                      <label class="input-group-text" for="">分</label>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -170,9 +176,9 @@
                 <!-- <div class="d-flex w-50">
                   <input type="text" class="w-100" placeholder="起始日期"><span class="fa fa-calendar p-1"></span>
                 </div> -->
-                <div class="input-group"><input type="text" class="form-control" placeholder="起始日期"><div class="input-group-append" title="開啟日期選擇"><span class="input-group-text fa fa-calendar"></span></div></div>
+                <div class="input-group"><input type="text" class="form-control" id="" data-role="datebox" data-options="{&quot;mode&quot;:&quot;calbox&quot;,&quot;useFocus&quot;:true,&quot;useLang&quot;:&quot;zh-TW&quot;}" readonly="readonly" placeholder="起始日期"></div>
                 <span class="p-1">~</span>
-                <div class="input-group"><input type="text" class="form-control" placeholder="結束日期"><div class="input-group-append" title="開啟日期選擇"><span class="input-group-text fa fa-calendar"></span></div></div>
+                <div class="input-group"><input type="text" class="form-control" id="" data-role="datebox" data-options="{&quot;mode&quot;:&quot;calbox&quot;,&quot;useFocus&quot;:true,&quot;useLang&quot;:&quot;zh-TW&quot;}" readonly="readonly" placeholder="結束日期"></div>
               </div>
             </div>
           </div>
@@ -194,7 +200,7 @@
           <!-- ========================== -->
           <div class="d-flex flex-wrap flex-lg-nowrap">
             <div class="flex-shrink-0">
-              <label class="label" for=""><span class="red-color">*</span>上款 <span class="remark btn active mb-1" data-content="如有輸入外字集或使用其他造字程式，郵寄標籤將無法顯示，請使用()加以註明，如下款為：黃(火宣)先生與楊(吉吉)小姐結婚誌慶。">註</span></label>
+              <label class="label" for=""><span class="red-color">*</span>上款 <i class="fa fa-info-circle remark main-color" data-content="如有輸入外字集或使用其他造字程式，郵寄標籤將無法顯示，請使用()加以註明，如下款為：黃(火宣)先生與楊(吉吉)小姐結婚誌慶。"></i></label>
             </div>
             <div class="w-100 size-0"><textarea class="w-600px m-size" name="upperName" id="upperName" rows="2" cols="" onchange="changeText();" onkeyup="changeText();"></textarea></div>
           </div>
@@ -238,8 +244,8 @@
     <!-- ====================== accordion divider ============================================ -->
     <div class="accordion fff-bg mb-3">
       <h3 class="accordion-title">
-        <span>下款署名人資料（目前已勾選 <span>x</span> 人）<span class="remark btn active" data-content="重複件判斷依據為：若為婚事，系統會以新郎、新娘名字及喜事日期進行比對。若為其他喜事，則以上款及喜事日期進行比對。">註</span></span>
-        <span class="lg-float-right"><a class="btn active mb-0" onclick="clearLawer();" href="#">清除勾選名單</a></span>
+        <span>下款署名人資料（目前已勾選 <span>x</span> 人）<i class="fa fa-info-circle remark" data-content="重複件判斷依據為：若為婚事，系統會以新郎、新娘名字及喜事日期進行比對。若為其他喜事，則以上款及喜事日期進行比對。"></i></span>
+        <span class="lg-float-right"><a class="btn active mb-0" href="#"><i class="fa fa-refresh" aria-hidden="true"></i> 清除勾選</a></span>
         <div class="clear"></div>
       </h3>
       <div class="accordion-body">
@@ -292,5 +298,14 @@
 </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<!-- datebox -->
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://cdn.jtsage.com/external/jquery.mousewheel.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="lib/datebox/js/jtsage-datebox.js"></script>
+<script src="lib/datebox/js/jtsage-datebox.i18n.zh-TW.utf8.min.js"></script>
+<!-- datebox end -->
+
 <script src="js/other.js"></script>
 </html>

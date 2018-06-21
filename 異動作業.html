@@ -36,7 +36,7 @@
       <h3 class="accordion-title">
         <span>異動作業</span>
         <span class="lg-float-right">
-          <a class="btn active mb-0" href="#">清除勾選名單</a>
+          <a class="btn active mb-0" href="#"><i class="fa fa-refresh" aria-hidden="true"></i> 清除勾選</a>
           <a class="btn active mb-0" href="#">清除單</a>
         </span>
         <div class="clear"></div>
@@ -69,7 +69,7 @@
                   <span class="circle"></span>
                 </label>
               </div> -->
-              <div class="check d-flex justify-content-center flex-wrap w-600px">
+              <div class="check d-flex justify-content-lg-center flex-wrap w-600px">
                 <input type="checkbox" id="search1"><label for="search1">案件編號</label>
                 <input type="checkbox" id="search2"><label for="search2">上款(模糊查詢請用&符號)</label>
               </div>
@@ -77,107 +77,112 @@
           </div>
           <div>搜尋選項(申請類別：<span class="mr-3">不限類別</span>申請日期區間：<span class="mr-3">最近一個月</span>付款方式：<span class="mr-3">不限類別</span>取件方式：<span>不限類別</span>)</div>
           <!-- ========================== -->
-          <div class="d-flex flex-wrap flex-lg-nowrap">
-            <div class="card fff-bg mb-2 w-20-rwd mr-lg-2">
-              <h3 class="card-title">申請類別</h3>
-              <div class="card-body">
-                <div class="container-fluid">
-                  <label class="radio-square d-block">不限
-                    <input type="radio" name="申請類別1">
-                    <span class="circle"></span>
-                  </label>
-                  <label class="radio-square d-block">喜事
-                    <input type="radio" name="申請類別1">
-                    <span class="circle"></span>
-                  </label>
-                  <label class="radio-square d-block">喪事
-                    <input type="radio" name="申請類別1">
-                    <span class="circle"></span>
-                  </label>
+          <details>
+            <summary class="main-color my-1" id="advanced-toggle">進階搜尋 <i class="fa fa-sliders" aria-hidden="true"></i></summary>
+            <div id="advanced-content">
+              <div class="d-flex flex-wrap flex-lg-nowrap">
+                <div class="card fff-bg mb-2 w-20-rwd mr-lg-2">
+                  <h3 class="card-title">申請類別</h3>
+                  <div class="card-body">
+                    <div class="container-fluid">
+                      <label class="radio-square d-block">不限
+                        <input type="radio" name="申請類別1">
+                        <span class="circle"></span>
+                      </label>
+                      <label class="radio-square d-block">喜事
+                        <input type="radio" name="申請類別1">
+                        <span class="circle"></span>
+                      </label>
+                      <label class="radio-square d-block">喪事
+                        <input type="radio" name="申請類別1">
+                        <span class="circle"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- ========================== -->
+                <div class="card fff-bg mb-2 w-20-rwd mr-lg-2">
+                  <h3 class="card-title">取件方式</h3>
+                  <div class="card-body">
+                    <div class="container-fluid">
+                      <label class="radio-square d-block">不限
+                        <input type="radio" name="取件方式">
+                        <span class="circle"></span>
+                      </label>
+                      <label class="radio-square d-block">郵寄
+                        <input type="radio" name="取件方式">
+                        <span class="circle"></span>
+                      </label>
+                      <label class="radio-square d-block">中興大樓自取
+                        <input type="radio" name="取件方式">
+                        <span class="circle"></span>
+                      </label>
+                      <label class="radio-square d-block">送回院長室
+                        <input type="radio" name="取件方式">
+                        <span class="circle"></span>
+                      </label>
+                      <label class="radio-square d-block">送回副院長室
+                        <input type="radio" name="取件方式">
+                        <span class="circle"></span>
+                      </label>
+                      <label class="radio-square d-block">送回副院長室
+                        <input type="radio" name="取件方式">
+                        <span class="circle"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- ========================== -->
+                <div class="card fff-bg mb-2 w-20-rwd mr-lg-2">
+                  <h3 class="card-title">申請類別3</h3>
+                  <div class="card-body">
+                    <div class="container-fluid">
+                      <label class="radio-square d-block">正副院長
+                        <input type="radio" name="申請類別3">
+                        <span class="circle"></span>
+                      </label>
+                      <label class="radio-square d-block">正副院長
+                        <input type="radio" name="申請類別3">
+                        <span class="circle"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- ========================== -->
+                <div class="card fff-bg mb-2 w-20-rwd mr-lg-2">
+                  <h3 class="card-title">申請類別4</h3>
+                  <div class="card-body">
+                    <div class="container-fluid">
+                      <label class="radio-square d-block">正副院長
+                        <input type="radio" name="申請類別4">
+                        <span class="circle"></span>
+                      </label>
+                      <label class="radio-square d-block">正副院長
+                        <input type="radio" name="申請類別4">
+                        <span class="circle"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- ========================== -->
+                <div class="card fff-bg mb-2 w-20-rwd">
+                  <h3 class="card-title">申請類別5</h3>
+                  <div class="card-body">
+                    <div class="container-fluid">
+                      <label class="radio-square d-block">正副院長
+                        <input type="radio" name="申請類別5">
+                        <span class="circle"></span>
+                      </label>
+                      <label class="radio-square d-block">正副院長
+                        <input type="radio" name="申請類別5">
+                        <span class="circle"></span>
+                      </label>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <!-- ========================== -->
-            <div class="card fff-bg mb-2 w-20-rwd mr-lg-2">
-              <h3 class="card-title">取件方式</h3>
-              <div class="card-body">
-                <div class="container-fluid">
-                  <label class="radio-square d-block">不限
-                    <input type="radio" name="取件方式">
-                    <span class="circle"></span>
-                  </label>
-                  <label class="radio-square d-block">郵寄
-                    <input type="radio" name="取件方式">
-                    <span class="circle"></span>
-                  </label>
-                  <label class="radio-square d-block">中興大樓自取
-                    <input type="radio" name="取件方式">
-                    <span class="circle"></span>
-                  </label>
-                  <label class="radio-square d-block">送回院長室
-                    <input type="radio" name="取件方式">
-                    <span class="circle"></span>
-                  </label>
-                  <label class="radio-square d-block">送回副院長室
-                    <input type="radio" name="取件方式">
-                    <span class="circle"></span>
-                  </label>
-                  <label class="radio-square d-block">送回副院長室
-                    <input type="radio" name="取件方式">
-                    <span class="circle"></span>
-                  </label>
-                </div>
-              </div>
-            </div>
-            <!-- ========================== -->
-            <div class="card fff-bg mb-2 w-20-rwd mr-lg-2">
-              <h3 class="card-title">申請類別3</h3>
-              <div class="card-body">
-                <div class="container-fluid">
-                  <label class="radio-square d-block">正副院長
-                    <input type="radio" name="申請類別3">
-                    <span class="circle"></span>
-                  </label>
-                  <label class="radio-square d-block">正副院長
-                    <input type="radio" name="申請類別3">
-                    <span class="circle"></span>
-                  </label>
-                </div>
-              </div>
-            </div>
-            <!-- ========================== -->
-            <div class="card fff-bg mb-2 w-20-rwd mr-lg-2">
-              <h3 class="card-title">申請類別4</h3>
-              <div class="card-body">
-                <div class="container-fluid">
-                  <label class="radio-square d-block">正副院長
-                    <input type="radio" name="申請類別4">
-                    <span class="circle"></span>
-                  </label>
-                  <label class="radio-square d-block">正副院長
-                    <input type="radio" name="申請類別4">
-                    <span class="circle"></span>
-                  </label>
-                </div>
-              </div>
-            </div>
-            <!-- ========================== -->
-            <div class="card fff-bg mb-2 w-20-rwd">
-              <h3 class="card-title">申請類別5</h3>
-              <div class="card-body">
-                <div class="container-fluid">
-                  <label class="radio-square d-block">正副院長
-                    <input type="radio" name="申請類別5">
-                    <span class="circle"></span>
-                  </label>
-                  <label class="radio-square d-block">正副院長
-                    <input type="radio" name="申請類別5">
-                    <span class="circle"></span>
-                  </label>
-                </div>
-              </div>
-            </div>
-          </div>
+          </details>
           <!-- ========================== -->
           <div class="table-responsive-lg">
             <table class="table" id="tableID">
