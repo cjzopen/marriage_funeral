@@ -87,7 +87,7 @@ Where size is one of:
 
 ## 純文字註解
 
-    <span class="remark btn active" data-content="{{註解的內容}}" {{data-title="標題"}}>註</span>
+    <i class="fa fa-info-circle remark" data-content="{{註解的內容}}" {{data-title="標題"}}></i>
     // data-title為選填，預設為"註解"
 
 
